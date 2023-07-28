@@ -21,6 +21,25 @@ The steps are as follows:
 <img src="https://github.com/OlayinkaPeter/airflow_/blob/main/images/db.png">
 </p>
 
+#### For the first day, the query is
+``` sql
+SELECT 
+    emp_no, birth_date, first_name, last_name, 
+    CASE gender WHEN 'M' THEN 'Male' WHEN 'F' THEN 'Female' ELSE gender END AS gender, 
+    hire_date 
+FROM employees
+```
+
+#### For the first day, the query is
+``` sql
+SELECT 
+    emp_no, birth_date, first_name, last_name, 
+    CASE gender WHEN 'M' THEN 'Male' WHEN 'F' THEN 'Female' ELSE gender END AS gender, 
+    hire_date 
+FROM employees
+WHERE hire_date >= '{datetime.now() - timedelta(days=1).strftime('%Y-%m-%d')}'
+```
+
 
 ### What my dag list looks like
 <p align="center">
