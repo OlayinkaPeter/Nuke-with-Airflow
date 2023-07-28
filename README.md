@@ -24,5 +24,5 @@ The steps are as follows:
 
 ### What my dag list looks like
 <p align="center">
-<img src="https://github.com/OlayinkaPeter/airflow_/blob/main/images/dag.png">
+<img src="https://github.com/OlayinkaPeter/airflow_/blob/main/images/dags.png">
 </p>
