@@ -21,7 +21,7 @@ The steps are as follows:
 <img src="https://github.com/OlayinkaPeter/airflow_/blob/main/images/db.png">
 </p>
 
-#### For the first day, the query is
+#### For the first dag, the query is
 ``` sql
 SELECT 
     emp_no, birth_date, first_name, last_name, 
@@ -30,7 +30,7 @@ SELECT
 FROM employees
 ```
 
-#### For the first day, the query is
+#### For the second dag to update bigquery daily, the query is
 ``` sql
 SELECT 
     emp_no, birth_date, first_name, last_name, 
