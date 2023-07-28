@@ -43,3 +43,5 @@ jobs:
         run: |
           kubectl apply -f my-airflow-deployment.yaml
         working-directory: ./airflow
+
+# Note that this do not contain actual live credentials
