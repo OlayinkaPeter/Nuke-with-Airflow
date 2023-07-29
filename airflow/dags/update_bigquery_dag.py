@@ -82,4 +82,4 @@ with DAG(dag_id="update_employees_to_bigquery",
         task_id="update_employees_to_bigquery",
         python_callable=update_employees_to_bigquery)
 
-update_employees_to_bigquery
+task_update_employees_to_bigquery

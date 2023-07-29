@@ -76,4 +76,4 @@ with DAG(dag_id="write_to_bigquery_dag",
         task_id="write_employees_to_bigquery",
         python_callable=write_employees_to_bigquery)
 
-write_employees_to_bigquery
+task_write_employees_to_bigquery
